@@ -1,4 +1,4 @@
-import { prisma } from "./prisma";
+import { prisma } from "./lib/prisma";
 
 /**
  * Expires stale PENDING reservations and releases their held stock.
